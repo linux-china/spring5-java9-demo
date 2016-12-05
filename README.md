@@ -6,3 +6,4 @@ SpringFramework 5 and Java 9
 * Java 9
 * Junit 5: mockito, assertj, spring-test
 * Reactive: Reactor, rxjava
+* Spring 5.0 new features
