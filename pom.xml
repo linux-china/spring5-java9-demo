@@ -11,9 +11,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>5.0.0.M5</spring.version>
+        <spring.version>5.0.0.RC2</spring.version>
         <junit5.version>5.0.0-M4</junit5.version>
-        <kotlin.version>1.1.2-2</kotlin.version>
+        <kotlin.version>1.1.2-5</kotlin.version>
     </properties>
 
     <dependencies>
