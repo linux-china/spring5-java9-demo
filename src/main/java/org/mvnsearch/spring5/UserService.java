@@ -1,5 +1,7 @@
 package org.mvnsearch.spring5;
 
+import org.springframework.lang.Nullable;
+
 /**
  * user service
  *
@@ -7,5 +9,6 @@ package org.mvnsearch.spring5;
  */
 public interface UserService {
 
+    @Nullable
     public String findNickById(Long id);
 }

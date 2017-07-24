@@ -1,6 +1,7 @@
 package org.mvnsearch.spring5.impl;
 
 import org.mvnsearch.spring5.UserService;
+import org.springframework.lang.Nullable;
 
 /**
  * user service implementation
@@ -8,6 +9,7 @@ import org.mvnsearch.spring5.UserService;
  * @author linux_china
  */
 public class UserServiceImpl implements UserService {
+    @Nullable
     public String findNickById(Long id) {
         return "nick:" + id;
     }
