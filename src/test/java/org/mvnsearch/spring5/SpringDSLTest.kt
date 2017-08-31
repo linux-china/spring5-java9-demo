@@ -28,7 +28,7 @@ class SpringDSLTest {
 
     @Test
     fun testSpike() {
-        println(appContext.getBean("userService"))
-        println("good")
+        val userService = appContext.getBean(UserService::class.java)
+        println(userService.findNickById(1))
     }
 }
